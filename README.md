@@ -1,6 +1,6 @@
 # @angular/router v3.4.9 Lazy Loaded Component's Default Child Route On Page Load
 
-This project demonstrates the following issue:
+This project demonstrates [this issue](https://github.com/angular/angular/issues/14692):
 
 **Context**: A lazy-loaded component with a default child route that should 
 be activated on navigation to the lazy-loaded copmonent. The default child route
