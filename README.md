@@ -10,11 +10,10 @@ on application initialization.
 ## Reproduction Steps
 
 1. run the development server
-
-```
-npm install
-npm run serve
-```
+  ```
+  npm install
+  npm run serve
+  ```
 
 2. Open a new web browser page to the root URL (http://localhost:8080/) and 
 verify whether the @angular/router redirects to the expected default route 
