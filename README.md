@@ -1,4 +1,4 @@
-# @angular/router v3.2.9 Lazy Loaded Component's Default Child Route On Page Load
+# @angular/router v3.4.9 Lazy Loaded Component's Default Child Route On Page Load
 
 This project demonstrates the following issue:
 
