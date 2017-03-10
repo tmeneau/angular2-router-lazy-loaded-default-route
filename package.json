@@ -1,0 +1,41 @@
+{
+  "name": "ngtools-webpack-lazy-loading",
+  "version": "1.0.0",
+  "description": "Example project to demonstrate lazy loading with @ngtools/webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "aot": "AOT=true webpack",
+    "serve": "webpack-dev-server",
+    "serve-aot": "AOT=true webpack-dev-server"
+  },
+  "author": "tmeneau@xetus.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/common": "2.4.9",
+    "@angular/compiler": "2.4.9",
+    "@angular/compiler-cli": "2.4.9",
+    "@angular/core": "2.4.9",
+    "@angular/forms": "2.4.9",
+    "@angular/http": "2.4.9",
+    "@angular/platform-browser": "2.4.9",
+    "@angular/platform-browser-dynamic": "2.4.9",
+    "@angular/router": "3.4.9",
+    "@angular/tsc-wrapped": "0.5.1",
+    "@ngtools/webpack": "1.2.9",
+    "@types/core-js": "0.9.35",
+    "core-js": "2.4.1",
+    "css-loader": "^0.27.1",
+    "html-loader": "0.4.4",
+    "html-webpack-plugin": "2.26.0",
+    "path": "0.12.7",
+    "raw-loader": "0.5.1",
+    "rxjs": "5.0.3",
+    "source-map-loader": "^0.2.0",
+    "style-loader": "^0.13.2",
+    "typescript": "2.1.5",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "1.16.2",
+    "zone.js": "0.7.6"
+  }
+}
